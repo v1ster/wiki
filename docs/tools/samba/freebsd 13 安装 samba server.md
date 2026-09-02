@@ -1,7 +1,10 @@
 ---
 title: freebsd 13 安装 samba server
 date: 2024-04-11
+categories:
+  - tools
 tags:
+  - samba
   - tool
 ---
 

@@ -1,8 +1,11 @@
 ---
 title: samba 分享文件
 date: 2023-04-14
+categories:
+  - tools
 tags:
   - linux
+  - samba
   - tool
 ---
 

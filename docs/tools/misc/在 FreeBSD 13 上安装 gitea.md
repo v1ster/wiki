@@ -2,7 +2,7 @@
 title: 在 FreeBSD 13 上安装 gitea
 date: 2024-04-24
 categories:
-    - linux
+  - tools
 tags:
   - tool
 ---

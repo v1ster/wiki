@@ -1,6 +1,8 @@
 ---
 title: 使用UEFI Shell引导U盘启动
 date: 2023-08-06
+categories:
+  - tools
 tags:
   - tool
 ---

@@ -1,9 +1,12 @@
 ---
 title: 查看python所支持的wheel包
 date: 2023-08-03
+categories:
+  - tools
 tags:
   - tool
 ---
+
 ``` shell
 pi@testpi2:~ $ python
 Python 3.9.2 (default, Mar 12 2021, 04:06:34)

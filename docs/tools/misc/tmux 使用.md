@@ -1,11 +1,12 @@
 ---
 title: tmux 使用
 date: 2024-06-27
+categories:
+  - tools
 tags:
   - tool
-category:
-  - linux
 ---
+
 # tmux 一些常用快捷键
 
 1. ctrl+b d   // 分离仓库

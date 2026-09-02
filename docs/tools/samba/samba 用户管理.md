@@ -1,8 +1,11 @@
 ---
 title: samba 用户管理
 date: 2023-04-14
+categories:
+  - tools
 tags:
   - linux
+  - samba
   - tool
 ---
 
