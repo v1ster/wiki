@@ -1,11 +1,12 @@
 ---
 title: google chrome 强制启用 secure dns
 date: 2026-04-07
+categories:
+  - windows
 tags:
   - windows
-category:
-  - windows
 ---
+
 # google chrome 强制启用 secure dns
 
 regedit 打开注册表

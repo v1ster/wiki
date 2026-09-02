@@ -1,9 +1,12 @@
 ---
 title: Windows 10 分享网络设置
 date: 2023-11-09
+categories:
+  - windows
 tags:
   - windows
 ---
+
 # windows
 
 打开控制面板中的网络连接，切换到共享标签，将“允许其它网络用户通过此计算机的Internet连接来连接”，然后选择需要共享至的网卡。
