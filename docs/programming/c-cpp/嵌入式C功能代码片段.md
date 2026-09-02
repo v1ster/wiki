@@ -2,9 +2,9 @@
 title: 嵌入式C功能代码片段
 date: 2025-09-12
 categories:
-    - c/cpp
+  - programming
 tags:
-  - c/cpp
+  - c-cpp
 ---
 
 # 嵌入式C功能代码片段

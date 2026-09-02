@@ -1,7 +1,10 @@
 ---
 title: c 文件IO
 date: 2023-05-23
+categories:
+  - programming
 tags:
+  - c-cpp
   - cheatsheet
 ---
 

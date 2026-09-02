@@ -1,10 +1,10 @@
 ---
 title: python 查看动态链接库地址
 date: 2023-04-28
+categories:
+  - programming
 tags:
   - python
-category:
-  - code
 ---
 
 ```shell

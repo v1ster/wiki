@@ -1,11 +1,12 @@
 ---
 title: 去掉宏__FILE__的路径
 date: 2024-10-17
+categories:
+  - programming
 tags:
-  - c/cpp
-category:
-  - c/cpp
+  - c-cpp
 ---
+
 # 去掉宏__FILE__的路径
 
 ---

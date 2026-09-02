@@ -1,10 +1,10 @@
 ---
 title: python pip 设置代理
 date: 2023-07-24
+categories:
+  - programming
 tags:
   - python
-category:
-  - tool
 ---
 
 # pip 设置代理

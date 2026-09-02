@@ -1,7 +1,10 @@
 ---
 title: c 预处理器
 date: 2023-04-14
+categories:
+  - programming
 tags:
+  - c-cpp
   - cheatsheet
 ---
 

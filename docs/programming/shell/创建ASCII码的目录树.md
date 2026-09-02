@@ -1,8 +1,10 @@
 ---
 title: 创建ASCII码的目录树
 date: 2023-12-22
+categories:
+  - programming
 tags:
-  - Shell
+  - shell
   - tool
 ---
 

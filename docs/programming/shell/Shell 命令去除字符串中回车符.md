@@ -1,11 +1,13 @@
 ---
 title: Shell 命令去除字符串中回车符
 date: 2025-01-11
+categories:
+  - programming
 tags:
   - linux
-category:
-  - linux
+  - shell
 ---
+
 # Shell 命令去除字符串中回车符
 
 在 Shell 中，你可以使用 `tr` 或 `sed` 命令来去除字符串中的 `'\r'` 字符。以下是两种方法的示例：
