@@ -1,11 +1,11 @@
 ---
 title: v2ray一键脚本收集整理
-category:
-  - v2ray
+date: 2018-03-06
+categories:
+  - network
 tags:
   - linux
-abbrlink: a5cb4d7f
-date: 2018-03-06
+  - proxy
 ---
 
 > 本文主要收集网络上的v2ray脚本，该页面的脚本都经过本人验证使用没问题。

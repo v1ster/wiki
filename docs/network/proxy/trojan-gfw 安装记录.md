@@ -1,11 +1,13 @@
 ---
 title: trojan-gfw 安装记录
 date: 2024-10-15
+categories:
+  - network
 tags:
   - linux
-category:
-  - linux
+  - proxy
 ---
+
 # trojan 安装记录
 
 

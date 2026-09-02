@@ -1,8 +1,11 @@
 ---
 title: wireguard 部署记录
 date: 2023-09-17
+categories:
+  - network
 tags:
   - linux
+  - proxy
 ---
 
 # wireguard 部署记录

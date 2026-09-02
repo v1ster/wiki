@@ -1,9 +1,13 @@
 ---
 title: openvpn 局域网内分享网络
 date: 2023-10-08
+categories:
+  - network
 tags:
   - linux
+  - proxy
 ---
+
 # Brief
 
 首先设置内网机器的流量请求路由到 vpn client

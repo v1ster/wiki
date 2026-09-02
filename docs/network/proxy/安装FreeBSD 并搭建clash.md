@@ -1,11 +1,12 @@
 ---
 title: 安装FreeBSD 并搭建clash
 date: 2024-02-17
+categories:
+  - network
 tags:
-  - WIP
-category:
-  - linux
+  - proxy
 ---
+
 # 安装FreeBSD 并搭建clash
 ## 安装
 

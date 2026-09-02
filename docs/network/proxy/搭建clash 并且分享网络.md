@@ -1,8 +1,11 @@
 ---
 title: 搭建clash 并且分享网络
 date: 2023-04-12
+categories:
+  - network
 tags:
   - linux
+  - proxy
   - tool
 ---
 
