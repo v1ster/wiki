@@ -1,11 +1,12 @@
 ---
 title: git 修改第一个commit 信息
 date: 2023-08-22
+categories:
+  - git
 tags:
   - git
   - tool
 ---
-
 
 | 修改 commit 提交信息场景| 操作命令 |
 |------------------------------|------------|

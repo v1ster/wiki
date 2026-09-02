@@ -1,6 +1,8 @@
 ---
 title: git分割commit 推送到远程仓库
 date: 2023-05-10
+categories:
+  - git
 tags:
   - git
   - tool

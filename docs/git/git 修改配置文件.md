@@ -1,6 +1,8 @@
 ---
 title: git 修改配置文件
 date: 2023-04-14
+categories:
+  - git
 tags:
   - git
   - tool

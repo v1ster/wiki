@@ -1,6 +1,8 @@
 ---
 title: git  Merge vs Rebase
 date: 2023-04-14
+categories:
+  - git
 tags:
   - git
   - tool

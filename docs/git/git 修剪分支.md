@@ -1,6 +1,8 @@
 ---
 title: git 修剪分支
 date: 2023-04-19
+categories:
+  - git
 tags:
   - git
   - tool

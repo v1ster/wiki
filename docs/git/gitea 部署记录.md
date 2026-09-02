@@ -1,10 +1,11 @@
 ---
 title: gitea 部署记录
 date: 2023-06-27
+categories:
+  - git
 tags:
-    - tool
-    - git
-    - WIP
+  - git
+  - tool
 ---
 
 ## 参考

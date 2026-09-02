@@ -1,6 +1,8 @@
 ---
 title: git 将token 添加到远程仓库链接中
 date: 2023-04-19
+categories:
+  - git
 tags:
   - git
   - tool

@@ -1,6 +1,8 @@
 ---
 title: git 分块推送
 date: 2023-06-14
+categories:
+  - git
 tags:
   - git
   - tool

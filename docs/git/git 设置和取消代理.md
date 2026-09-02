@@ -1,6 +1,8 @@
 ---
 title: git 设置和取消代理
 date: 2023-04-14
+categories:
+  - git
 tags:
   - git
   - tool

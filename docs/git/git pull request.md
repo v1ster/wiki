@@ -1,10 +1,10 @@
 ---
 title: git pull request
 date: 2023-04-19
+categories:
+  - git
 tags:
   - git
-category:
-  - www
 ---
 
 # 如何优雅的 pull request

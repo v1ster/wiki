@@ -1,6 +1,8 @@
 ---
 title: git 合并commit
 date: 2023-04-19
+categories:
+  - git
 tags:
   - git
   - tool
