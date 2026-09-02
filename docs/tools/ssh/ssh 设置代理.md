@@ -1,6 +1,8 @@
 ---
 title: ssh 设置代理
 date: 2023-07-17
+categories:
+  - tools
 tags:
   - ssh
   - tool

@@ -1,6 +1,8 @@
 ---
 title: ssh 端口转发
 date: 2023-06-08
+categories:
+  - tools
 tags:
   - ssh
   - tool

@@ -1,6 +1,8 @@
 ---
 title: ssh 添加使用私钥
 date: 2023-07-08
+categories:
+  - tools
 tags:
   - ssh
   - tool

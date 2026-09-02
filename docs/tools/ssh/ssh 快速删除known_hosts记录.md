@@ -1,10 +1,13 @@
 ---
 title: ssh 快速删除known_hosts记录
 date: 2024-01-10
+categories:
+  - tools
 tags:
   - ssh
   - tool
 ---
+
 ```
 ssh-keygen -R 192.168.0.10
 
