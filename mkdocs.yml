@@ -6,7 +6,6 @@ repo_name: v1ster/repository
 theme:
   name: material
   icon:
-    # logo: assets/
     logo: octicons/plug-16
     repo: simple/github
   palette:
@@ -16,23 +15,16 @@ theme:
   features:
     - content.code.copy
     - navigation.sections
-    - navigation.instant
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.path
+    - navigation.expand
     - navigation.indexes
+    - navigation.path
     - navigation.top
+    - navigation.instant
+    - toc.follow
+
 plugins:
   - search
-  - tags:
-      tags_file: blog/tags.md
-
-  - blog:
-      blog_dir: .
-      post_url_format: "{categories}/{slug}"
-      archive_date_format: yyyy/MM
-      archive_url_date_format: yyyy/qq
-      archive_url_format: "archive/{date}"
+  - tags
 
 markdown_extensions:
   - admonition
@@ -55,5 +47,123 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - index.md
-  - blog/tags.md
+  - 首页: "index.md"
+  - Linux 系统:
+      - "linux/index.md"
+      - 发行版:
+          - "Arch Linux 安装记录": "linux/distro/archlinux install record.md"
+          - "Gentoo 安装指南": "linux/distro/Gentoo Linux 安装指南.md"
+          - "Gentoo 源设置": "linux/distro/gentoo 源设置.md"
+          - "Rock5B 设置": "linux/distro/rock5b 设置记录.md"
+          - "Ubuntu 移除 Snap": "linux/distro/Ubuntu 彻底移除Snap.md"
+          - "Ubuntu 无网络": "linux/distro/Ubuntu 没有网络连接.md"
+          - "Ubuntu 虚拟显示器": "linux/distro/ubuntu 设置虚拟显示器输出.md"
+          - "删除 Ubuntu Pro": "linux/distro/删除Ubunut Pro.md"
+          - "LFS 记录": "linux/distro/LFS 记录.md"
+      - 文件系统:
+          - "ext4 转 Btrfs": "linux/filesystem/Arch linux ext4 文件系统转 Btrfs.md"
+          - "硬盘扩容迁移": "linux/filesystem/Arch Linux 硬盘扩容迁移.md"
+          - "缩小分区": "linux/filesystem/linux 缩小分区大小.md"
+      - 系统管理:
+          - "用户管理": "linux/system/linux 用户使用.md"
+          - "Ctrl+z 恢复": "linux/system/linux 中使用 ctrl+z 停止任务后如何恢复任务.md"
+          - "网络排查": "linux/system/linux 网络排查.md"
+          - "静态 IP": "linux/system/设置静态 IP 地址.md"
+          - "版本与密码": "linux/system/查看linux 版本信息 & 更改密码.md"
+  - 嵌入式与内核:
+      - "embedded/index.md"
+      - Buildroot:
+          - "crontab 定时任务": "embedded/buildroot/Buildroot 使用 crontab 和 crond 完成定时任务.md"
+          - "仅获取 toolchain": "embedded/buildroot/buildroot  如何仅获取 toolchain.md"
+          - "静态 IP": "embedded/buildroot/buildroot  静态ip 设置.md"
+          - "repo 拉取": "embedded/buildroot/repo 拉取仓库.md"
+      - "Yocto / OpenWrt":
+          - "Yocto 调试": "embedded/yocto/Yocoto 调试总结.md"
+          - "OpenWrt 记录": "embedded/yocto/OpenWrt 使用记录.md"
+      - 内核:
+          - "内核开发": "embedded/kernel/Linux 内核开发.md"
+          - "内存管理": "embedded/kernel/内核内存管理.md"
+          - "网络设备驱动": "embedded/kernel/内核网络设备驱动.md"
+          - "驱动初始化顺序": "embedded/kernel/内核驱动初始化顺序.md"
+          - "ELF 查看": "embedded/kernel/ELF 文件查看.md"
+          - "手把手 ELF 解析": "embedded/kernel/手把手解析ELF文件格式：从Hello World到二进制奥秘.md"
+      - 硬件:
+          - "CMOS Sensor": "embedded/hardware/CMOS Sensor 的一些基本概念.md"
+          - "imx8mm sai rx": "embedded/hardware/imx8mm sai rx 时钟线配置.md"
+          - "Fan driver": "embedded/hardware/linux Fan driver.md"
+          - "openocd": "embedded/hardware/openocd 使用.md"
+          - "gpio keypad": "embedded/hardware/gpio keypad.md"
+  - Git 专栏:
+      - "git/index.md"
+      - "cherry-pick": "git/git cherry-pick 代码片段.md"
+      - "diff patch": "git/git diff 生成patch 并应用.md"
+      - "Merge vs Rebase": "git/git  Merge vs Rebase.md"
+      - "pull request": "git/git pull request.md"
+      - "修剪分支": "git/git 修剪分支.md"
+      - "修改首个 commit": "git/git 修改第一个commit 信息.md"
+      - "修改配置": "git/git 修改配置文件.md"
+      - "分割推送": "git/git分割commit 推送到远程仓库.md"
+      - "分块推送": "git/git 分块推送.md"
+      - "合并 commit": "git/git 合并commit.md"
+      - "同步 Fork": "git/git 同步Fork 源仓库.md"
+      - "token 远程": "git/git 将token 添加到远程仓库链接中.md"
+      - "打包仓库": "git/git 打包仓库.md"
+      - "查看历史": "git/git 查看历史记录.md"
+      - "代理设置": "git/git 设置和取消代理.md"
+      - "Gitea 部署": "git/gitea 部署记录.md"
+  - 网络与代理:
+      - "network/index.md"
+      - "cloudflared": "network/proxy/cloudflared 内网代理.md"
+      - "openvpn 共享": "network/proxy/openvpn 局域网内分享网络.md"
+      - "wireguard": "network/proxy/wireguard 部署记录.md"
+      - "v2ray": "network/proxy/v2ray 脚本安装.md"
+      - "trojan": "network/proxy/trojan-gfw 安装记录.md"
+      - "clash 共享": "network/proxy/搭建clash 并且分享网络.md"
+      - "FreeBSD+clash": "network/proxy/安装FreeBSD 并搭建clash.md"
+      - "钉钉输入法": "network/proxy/钉钉无法输入中文.md"
+  - 工具箱:
+      - "tools/index.md"
+      - apt:
+          - "add-apt-repository": "tools/apt/add-apt-repository 命令安装,卸载和使用.md"
+          - "cert failed": "tools/apt/apt certificate verification failed.md"
+          - "apt-key": "tools/apt/apt-key 添加公钥.md"
+          - "apt 代理": "tools/apt/apt 命令使用代理.md"
+      - ssh:
+          - "添加公钥": "tools/ssh/ssh 向linux添加公钥.md"
+          - "清理 known_hosts": "tools/ssh/ssh 快速删除known_hosts记录.md"
+          - "私钥": "tools/ssh/ssh 添加使用私钥.md"
+          - "端口转发": "tools/ssh/ssh 端口转发.md"
+          - "代理": "tools/ssh/ssh 设置代理.md"
+      - samba:
+          - "分享文件": "tools/samba/samba 分享文件.md"
+          - "用户管理": "tools/samba/samba 用户管理.md"
+          - "FreeBSD samba": "tools/samba/freebsd 13 安装 samba server.md"
+      - 其他:
+          - "tmux": "tools/misc/tmux 使用.md"
+          - "zsh 历史": "tools/misc/zsh 增加命令历史记录.md"
+          - "UEFI Shell": "tools/misc/使用UEFI Shell引导U盘启动.md"
+          - "vscode compare": "tools/misc/vscode 设置 compare view.md"
+          - "wheel 支持": "tools/misc/查看python所支持的wheel包.md"
+          - "FreeBSD gitea": "tools/misc/在 FreeBSD 13 上安装 gitea.md"
+  - 编程:
+      - "programming/index.md"
+      - "C / C++":
+          - "文件 IO": "programming/c-cpp/c 文件IO.md"
+          - "预处理器": "programming/c-cpp/c 预处理器.md"
+          - "去掉 __FILE__": "programming/c-cpp/去掉宏__FILE__的路径.md"
+          - "嵌入式片段": "programming/c-cpp/嵌入式C功能代码片段.md"
+      - Python:
+          - "pip 代理": "programming/python/python pip 设置代理.md"
+          - "动态库路径": "programming/python/python 查看动态链接库地址.md"
+      - Shell:
+          - "去回车符": "programming/shell/Shell 命令去除字符串中回车符.md"
+          - "ASCII 树": "programming/shell/创建ASCII码的目录树.md"
+  - "Windows & 速查表":
+      - "windows/index.md"
+      - "Windows 10 共享": "windows/Windows 10 分享网络设置.md"
+      - "右键菜单": "windows/windows 中添加右键菜单 - 在vscode 中打开.md"
+      - "Chrome DoH": "windows/google chrome 强制启用 secure dns.md"
+      - "cheatsheet/index.md"
+      - "Markdown 速查": "cheatsheet/Markdown 速查表.md"
+      - "DWM 快捷键": "cheatsheet/DWM shortcuts cheetsheet.md"
+  - 标签: "blog/tags.md"
