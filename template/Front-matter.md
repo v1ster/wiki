@@ -1,8 +1,8 @@
 ---
 title: {{title}}
 date: {{date}}
+categories:
+  - linux
 tags:
-    - linux
-category:
-    - linux
+  - linux
 ---

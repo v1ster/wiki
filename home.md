@@ -25,8 +25,8 @@ dv.paragraph(
 # List
 
 ```dataview
-table tags, date
-from "docs/posts" 
+table tags, date, categories
+from "docs" 
 sort date DESC
 ```
 
