@@ -1,8 +1,10 @@
 ---
 title: Markdown 速查表
 date: 2023-04-19
+categories:
+  - cheatsheet
 tags:
-    - cheatsheet
+  - cheatsheet
 ---
 
 ## Obsidian 语法

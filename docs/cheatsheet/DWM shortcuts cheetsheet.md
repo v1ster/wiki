@@ -1,11 +1,12 @@
 ---
 title: DWM shortcuts cheetsheet
 date: 2025-10-24
+categories:
+  - cheatsheet
 tags:
-    - linux
-category:
-    - linux
+  - linux
 ---
+
 # DWM shortcuts cheetsheet
 
 
