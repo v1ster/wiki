@@ -1,6 +1,8 @@
 ---
 title: apt-key 添加公钥
 date: 2023-04-14
+categories:
+  - tools
 tags:
   - apt
   - tool

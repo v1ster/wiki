@@ -1,6 +1,8 @@
 ---
 title: apt certificate verification failed
 date: 2023-05-10
+categories:
+  - tools
 tags:
   - apt
   - tool

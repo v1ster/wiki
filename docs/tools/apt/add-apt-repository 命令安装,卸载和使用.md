@@ -1,6 +1,8 @@
 ---
 title: add-apt-repository 命令安装,卸载和使用
 date: 2023-04-25
+categories:
+  - tools
 tags:
   - apt
   - tool

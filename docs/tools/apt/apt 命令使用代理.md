@@ -1,6 +1,8 @@
 ---
 title: apt 命令使用代理
 date: 2023-04-14
+categories:
+  - tools
 tags:
   - apt
   - tool
