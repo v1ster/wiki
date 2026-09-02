@@ -1,11 +1,13 @@
 ---
 title: ELF 文件查看
 date: 2025-04-25
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - kernel
   - linux
 ---
+
 # ELF 文件查看 
 
 (1) file：判断文件类型

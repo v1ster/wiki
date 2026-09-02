@@ -1,11 +1,13 @@
 ---
 title: 手把手解析ELF文件格式：从Hello World到二进制奥秘
 date: 2025-04-25
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - kernel
   - linux
 ---
+
 # 手把手解析ELF文件格式：从Hello World到二进制奥秘
 
 大伙应该都知道无论是Linux下的可执行程序，还是共享库（`.so`）、核心转储文件（`core`），它们的底层格式都是 ELF（Executable and Linkable Format）。理解ELF文件，能让你获得哪些能力呢？我想应该有如下几点  

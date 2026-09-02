@@ -1,6 +1,8 @@
 ---
 title: Linux 内核开发
 date: 2023-10-31
+categories:
+  - embedded
 tags:
   - kernel
 ---
