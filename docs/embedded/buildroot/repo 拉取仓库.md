@@ -1,11 +1,13 @@
 ---
 title: repo 初始化仓库
 date: 2024-08-13
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - buildroot
   - linux
 ---
+
 # repo 拉取仓库
 
 ```Shell

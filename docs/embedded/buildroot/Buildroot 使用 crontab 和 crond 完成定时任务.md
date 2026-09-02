@@ -1,11 +1,13 @@
 ---
 title: Buildroot 使用 crontab 和 crond 完成定时任务
 date: 2025-01-14
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - buildroot
   - linux
 ---
+
 # Buildroot 使用 crontab 和 crond 完成定时任务
 
 新建定时文件配置

@@ -1,11 +1,13 @@
 ---
 title: buildroot 如何仅获取 toolchain
 date: 2024-08-29
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - buildroot
   - linux
 ---
+
 # buildroot 如何仅获取 toolchain
 
 > A more recent way to build just the toolchain, which can be used both within and outside of Buildroot, is documented in the [Buildroot manual](https://buildroot.org/downloads/manual/manual.html).
