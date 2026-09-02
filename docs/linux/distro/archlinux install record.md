@@ -1,10 +1,10 @@
 ---
 title: archlinux install record
 date: 2023-07-08
+categories:
+  - linux
 tags:
   - system
-category:
-  - linux
 ---
 
 # archlinux install record

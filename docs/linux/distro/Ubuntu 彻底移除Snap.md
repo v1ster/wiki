@@ -1,6 +1,8 @@
 ---
 title: Ubuntu 彻底移除Snap
 date: 2023-04-18
+categories:
+  - linux
 tags:
   - linux
 ---

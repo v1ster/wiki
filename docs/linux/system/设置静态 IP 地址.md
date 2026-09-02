@@ -1,6 +1,8 @@
 ---
 title: 设置静态 IP 地址
 date: 2023-05-06
+categories:
+  - linux
 tags:
   - linux
 ---

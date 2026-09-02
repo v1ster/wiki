@@ -1,12 +1,11 @@
 ---
 title: Gentoo Linux 安装指南
 date: 2023-08-06
+categories:
+  - linux
 tags:
   - linux
-category:
-  - www
 ---
-
 
 # Gentoo Linux 安装指南
 

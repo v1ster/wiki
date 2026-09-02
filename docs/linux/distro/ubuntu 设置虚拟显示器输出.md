@@ -1,6 +1,8 @@
 ---
 title: ubuntu 设置虚拟显示器输出
 date: 2023-04-18
+categories:
+  - linux
 tags:
   - linux
 ---

@@ -1,9 +1,13 @@
 ---
 title: linux 缩小分区大小
 date: 2023-10-09
+categories:
+  - linux
 tags:
+  - filesystem
   - linux
 ---
+
 重启到 `LiveCD`
 
 ```Shell

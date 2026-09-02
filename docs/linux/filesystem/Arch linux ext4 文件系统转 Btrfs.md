@@ -1,9 +1,13 @@
 ---
 title: Arch linux ext4 文件系统转 Btrfs
 date: 2024-04-14
+categories:
+  - linux
 tags:
+  - filesystem
   - linux
 ---
+
 # ext4 文件系统转为 Btrfs
 
 > 注意所有操作在LiveCD 环境下进行操作

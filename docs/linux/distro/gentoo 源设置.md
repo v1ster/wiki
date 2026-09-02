@@ -1,6 +1,8 @@
 ---
 title: gentoo 源设置
 date: 2023-08-06
+categories:
+  - linux
 tags:
   - linux
 ---

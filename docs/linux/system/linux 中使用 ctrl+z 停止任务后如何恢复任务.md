@@ -1,9 +1,12 @@
 ---
 title: linux 中使用 ctrl+z 停止任务后如何恢复任务
 date: 2024-06-26
+categories:
+  - linux
 tags:
   - linux
 ---
+
 # linux 中使用 ctrl+z 停止任务后如何恢复任务
 
 ctrl+z的作用是停止任务，要恢复停止的任务要使用fg命令

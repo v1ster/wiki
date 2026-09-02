@@ -1,6 +1,8 @@
 ---
 title: linux 用户使用
 date: 2023-06-19
+categories:
+  - linux
 tags:
   - linux
 ---

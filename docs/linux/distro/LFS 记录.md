@@ -1,11 +1,12 @@
 ---
 title: LFS 记录
 date: 2025-08-31
+categories:
+  - linux
 tags:
   - linux
-category:
-  - linux
 ---
+
 # LFS 记录
 
 #### 1) 看当前目录总大小（人类可读）

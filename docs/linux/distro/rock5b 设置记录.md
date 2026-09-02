@@ -1,9 +1,12 @@
 ---
 title: rock5b 设置记录
 date: 2023-05-29
+categories:
+  - linux
 tags:
   - linux
 ---
+
 1. 设置用户自动登陆桌面
 ```Shell
 sudo  vi  /etc/lightdm/lightdm.conf

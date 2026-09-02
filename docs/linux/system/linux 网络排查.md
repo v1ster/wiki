@@ -1,6 +1,8 @@
 ---
 title: linux 网络排查
 date: 2023-11-06
+categories:
+  - linux
 tags:
   - linux
 ---

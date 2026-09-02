@@ -1,9 +1,9 @@
 ---
 title: 查看linux 版本信息 & 更改密码
 date: 2023-04-28
-tags:
+categories:
   - linux
-category:
+tags:
   - linux
 ---
 

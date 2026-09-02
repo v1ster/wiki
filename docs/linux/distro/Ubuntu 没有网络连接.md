@@ -1,6 +1,8 @@
 ---
 title: Ubuntu 没有网络连接
 date: 2023-04-18
+categories:
+  - linux
 tags:
   - linux
 ---
