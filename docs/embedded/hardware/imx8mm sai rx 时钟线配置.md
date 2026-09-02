@@ -1,11 +1,13 @@
 ---
 title: imx8mm sai rx 时钟线配置
 date: 2024-08-09
+categories:
+  - embedded
 tags:
+  - hardware
   - kernel
-category:
-  - linux
 ---
+
 # imx8mm sai rx 时钟线配置
 
 ```

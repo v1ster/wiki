@@ -1,9 +1,10 @@
 ---
 title: gpio keypad
 date: 2024-08-26
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - hardware
   - linux
 ---
 

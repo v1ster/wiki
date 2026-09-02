@@ -1,9 +1,10 @@
 ---
 title: openocd 使用
 date: 2024-11-03
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - hardware
   - linux
 ---
 

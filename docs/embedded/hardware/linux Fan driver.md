@@ -1,11 +1,13 @@
 ---
 title: linux Fan driver
 date: 2024-10-15
+categories:
+  - embedded
 tags:
-  - linux
-category:
+  - hardware
   - linux
 ---
+
 # Linux fan driver
 
 ```
