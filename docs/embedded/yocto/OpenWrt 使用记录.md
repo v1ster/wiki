@@ -1,9 +1,11 @@
 ---
 title: OpenWrt 使用记录
 date: 2023-05-28
+categories:
+  - embedded
 tags:
-    - linux
-    - WIP
+  - linux
+  - yocto
 ---
 
 # 1. 安装PVE 配置网络

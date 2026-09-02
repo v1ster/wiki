@@ -1,11 +1,13 @@
 ---
 title: Yocoto 调试总结
 date: 2025-04-25
+categories:
+  - embedded
 tags:
   - linux
-category:
-  - linux
+  - yocto
 ---
+
 添加设备树编译, 修改文件 `sources/meta-nxp-harpoon/conf/layer.conf` 
 ```
 KERNEL_DEVICETREE:append:imx8mm-lpddr4-evk = " \
